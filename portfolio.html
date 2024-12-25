@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Your Name</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+
+    /* Header Styling */
+    header {
+      background: linear-gradient(90deg, #4b6cb7, #182848);
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header .nav-links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    header .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+    header .nav-links a:hover {
+      color: #f8d210;
+    }
+
+    /* Footer Styling */
+    footer {
+      background: #182848;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    footer .social-links {
+      margin: 10px 0;
+    }
+    footer .social-links a {
+      color: white;
+      margin: 0 10px;
+      font-size: 1.5rem;
+      transition: transform 0.3s, color 0.3s;
+    }
+    footer .social-links a:hover {
+      transform: scale(1.2);
+      color: #4b6cb7;
+    }
+    footer p {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Your Name</h1>
+    <p>Fullstack Developer | Cybersecurity Student</p>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- About Section -->
+    <section id="about" class="container my-5">
+      <h2>About Me</h2>
+      <p>Hello! I am a passionate developer with experience in creating robust and scalable web and mobile applications. Currently pursuing a Master's in Cybersecurity at Saint Louis University, I am keen on blending my development skills with advanced security practices.</p>
+    </section>
+
+    <!-- Employment Experience Section -->
+    <section id="experience" class="container my-5">
+      <h2>Employment Experience</h2>
+
+      <!-- AdsTemplate (Ishtehar) -->
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Team Leader - AdsTemplate (Ishtehar)</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Jan 2024 - Sep 2024</h6>
+          <p class="card-text">Led a team of developers to create an advertising platform. Responsibilities included code reviews, optimizing solutions, and integrating key features such as Razorpay for payments and AWS S3 for storage.</p>
+          <h6>Projects:</h6>
+          <ul>
+            <li><strong>AdsTemplate Platform:</strong> Built a customizable advertising template application with subscription-based features. Integrated Razorpay payment gateway and AWS S3 for template storage.</li>
+            <li><strong>Video Editing Integration:</strong> Assisted in frontend integration of FFmpeg for video editing and processing.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Prominlabs -->
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Fullstack Developer - Prominlabs</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Sep 2023 - Jan 2024</h6>
+          <p class="card-text">Implemented features for quiz management, including CSV uploads and API performance optimization using Redis. Collaborated with teams on subscription management and error monitoring using Grafana.</p>
+          <h6>Projects:</h6>
+          <ul>
+            <li><strong>Quiz Management System:</strong> Developed bulk CSV upload functionality for quiz questions. Supported multiple question types such as MCQs and True/False.</li>
+            <li><strong>Subscription Plans:</strong> Implemented subscription plans for teachers, students, and parents.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Research Rack -->
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Backend Developer - Research Rack</h5>
+          <h6 class="card-subtitle mb-2 text-muted">May 2023 - Sep 2023</h6>
+          <p class="card-text">Developed a research sharing platform with features like Firebase notifications and secure file storage using AWS S3. Implemented authentication and authorization using Devise gem and social sign-in options.</p>
+          <h6>Projects:</h6>
+          <ul>
+            <li><strong>Research Paper Platform:</strong> Built APIs to save and share research papers, allowing users to review and comment.</li>
+            <li><strong>Notification System:</strong> Integrated Firebase to send notifications for updates and comments.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5">
+      <h2>Contact</h2>
+      <p>If you would like to collaborate or learn more about my work, feel free to reach out!</p>
+      <p>Email: <a href="mailto:your.actual.email@example.com">your.actual.email@example.com</a></p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/yourgithub" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p>&copy; 2024 Your Name. Designed with <i class="fas fa-heart"></i> and passion.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
