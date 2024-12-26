@@ -42,8 +42,8 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: http://pkchindala.github.io
-  #    url: ${{ steps.deployment.outputs.page_url }}portfolio.html
+      #url: http://pkchindala.github.io
+      url: ${{ steps.deployment.outputs.page_url }}/portfolio.html
     runs-on: ubuntu-latest
     needs: build
     steps:
